@@ -1,0 +1,122 @@
+body { 
+  font-family: Arial, sans-serif; 
+  margin: 0; 
+  padding: 0; 
+  background-color: aliceblue; 
+} 
+header { 
+  background-color: #333; 
+  color: white; 
+  padding: 10px 20px; 
+  display: flex; 
+  align-items: center; 
+  position: fixed; 
+  top: 0; 
+  width: 100%;
+  overflow: auto;
+} 
+.logo a { 
+  font-family: 'papyrus'; 
+  color: white; 
+  text-decoration: none; 
+  font-size: 24px; 
+  font-weight: 950; 
+} 
+
+nav ul { 
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0; 
+  display: flex; 
+   
+} 
+
+nav ul li { 
+ align-items: center; 
+ margin-left: 5px; 
+} 
+
+nav ul li a { 
+  background: none; 
+  border: none; 
+  color: white; 
+  cursor: pointer; 
+  padding: 10px; 
+  padding-top: 20px; 
+  height: 5px; 
+  align-items: center; 
+  text-align: center; 
+} 
+.country-selector{ 
+  margin-left: 15px; 
+  align-self: center; 
+} 
+.country-selector select { 
+  align-items: center; 
+  font-size: 16px; 
+} 
+/* Main Content Styles */ 
+.news-container { 
+  margin-top: 10px; 
+  padding: 20px; 
+  text-align: center; 
+  align-items: center; 
+  margin-left: 10%; 
+  margin-right: 10%; 
+  background-color: white; 
+} 
+/* Article Styles */ 
+
+ul { 
+  padding: 0; 
+} 
+
+ul li { 
+  margin-bottom: 20px; 
+} 
+
+ul li strong { 
+  font-size: 40px; 
+  text-wrap:wrap; 
+  height:fit-content 
+} 
+
+ul li p { 
+  font-size: 25px; 
+  margin-top: 5px; 
+} 
+
+ul li img { 
+  width: 50%; 
+  height: 50%;
+  margin-left: 0; 
+  margin-right: 0.5%; 
+  margin-top: 0.5%; 
+  align-items: center;
+} 
+
+
+ul li a { 
+  color:black; 
+  text-decoration: none; 
+  display: block; 
+} 
+#b{ 
+  background-color: black; 
+  color: antiquewhite; 
+  font-size: 20px; 
+  border-radius: 25px; 
+} 
+#login{ 
+  margin-left: 2%;
+} 
+#logout{ 
+  text-align: center; 
+  position:fixed; 
+  margin-left: 90%; 
+  border-radius: 25px; 
+  color: white; 
+  background-color: #333; 
+  height:5%; 
+  width:7%px; 
+} 
